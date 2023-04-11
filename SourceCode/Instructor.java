@@ -11,8 +11,6 @@ public class Instructor {
     private final String TB;
     private final String AN;
     private final String UI;
-    //DATA STRUCTURE:HashMap to store student names and scores 
-    private final HashMap<String, String> StudentReports;
 
     Assets icon = new Assets();
     
@@ -22,7 +20,6 @@ public class Instructor {
         TB = tb;
         AN = an;
         UI = ui;
-        StudentReports = new HashMap<>();
         
         //Display options
         String[] options = {"Add Question", "Display Stats", "Add Student"};
