@@ -35,8 +35,8 @@ public class QuizGame_3035 {
             
             //Reports
             Report report = new Report(SRpath,name,username,timestamp,elapsed,score,answerSheet);
-            //report.StudentReport();
-            //report.ReportCardFile(path);
+            report.StudentReport();
+            report.ReportCardFile(path);
             report.AppendReport();
         } else {
             Instructor inst = new Instructor(SRpath, TBpath, ANpath, UIpath);
