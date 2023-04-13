@@ -94,7 +94,7 @@ public class Report {
     public void AppendReport() throws IOException{
         FileWriter SR = new FileWriter(path,true);
         try (PrintWriter Reports = new PrintWriter(SR)) {
-            Reports.printf("%s,%s,",name,score, "\n");
+            Reports.printf("\n%s,%s,",name,score, "\n");
         }
     }
     
