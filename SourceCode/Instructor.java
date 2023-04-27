@@ -114,7 +114,7 @@ public class Instructor {
         //Add student to UserInfo
         FileWriter UsI = new FileWriter(UI,true);
         try (PrintWriter userInfo = new PrintWriter(UsI)) {
-            userInfo.println("\n" + Fname + "," + Lname + "," + UserName + "," + Password + "," + "Student");
+            userInfo.println("\n" + Fname + "," + Lname + "," + UserName + "," + Password + "," + "Student" + ",");
         }
     }
 }
